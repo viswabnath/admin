@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageButton"
+        android:layout_width="130dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/ic_launcher_background"/>
+
+
+   <TextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:hint="Product"
+       android:id="@+id/product"
+       android:layout_toEndOf="@+id/imageButton"
+       android:textAllCaps="true"
+       android:paddingTop="20sp"
+       android:paddingLeft="10sp"
+       android:paddingBottom="10dp"/>
+
+ <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:hint="textviewone"
+     android:id="@+id/textviewone"
+    android:layout_toEndOf="@id/product"
+    android:textAllCaps="true"
+    android:paddingTop="20sp"
+    android:paddingLeft="17sp"
+     android:paddingBottom="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Phone"
+        android:id="@+id/phone"
+        android:layout_toEndOf="@+id/imageButton"
+        android:textAllCaps="true"
+        android:paddingTop="40sp"
+        android:paddingLeft="10sp"
+        android:paddingBottom="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="textviewtwo"
+        android:id="@+id/textviewtwo"
+        android:layout_toEndOf="@id/phone"
+        android:textAllCaps="true"
+        android:paddingTop="40sp"
+        android:paddingLeft="27sp"
+        android:paddingBottom="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Quantity"
+        android:id="@+id/quantity"
+        android:layout_toEndOf="@+id/imageButton"
+        android:textAllCaps="true"
+        android:paddingTop="60sp"
+        android:paddingLeft="10sp"
+        android:paddingBottom="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="textviewthree"
+        android:id="@+id/textviewthree"
+        android:layout_toEndOf="@id/quantity"
+        android:textAllCaps="true"
+        android:paddingTop="60sp"
+        android:paddingLeft="27sp"
+        android:paddingBottom="10dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Quality"
+        android:id="@+id/qualtity"
+        android:layout_toEndOf="@+id/imageButton"
+        android:textAllCaps="true"
+        android:paddingTop="80sp"
+        android:paddingLeft="10sp"
+        android:paddingBottom="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="textviewfour"
+        android:id="@+id/textviewfour"
+        android:layout_toEndOf="@id/qualtity"
+        android:textAllCaps="true"
+        android:paddingTop="80sp"
+        android:paddingLeft="23sp"
+        android:paddingBottom="10dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Quantity In"
+        android:id="@+id/qualtityin"
+        android:layout_toEndOf="@+id/imageButton"
+        android:textAllCaps="true"
+        android:paddingTop="100sp"
+        android:paddingLeft="10sp"
+        android:paddingBottom="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="textviewfive"
+        android:id="@+id/textviewfive"
+        android:layout_toEndOf="@id/qualtity"
+        android:textAllCaps="true"
+        android:paddingTop="100sp"
+        android:paddingLeft="23sp"
+        android:paddingBottom="10dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="UsrName"
+        android:id="@+id/username"
+        android:layout_toEndOf="@+id/imageButton"
+        android:textAllCaps="true"
+        android:paddingTop="120sp"
+        android:paddingLeft="10sp"
+        android:paddingBottom="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="textviewsix"
+        android:id="@+id/textviewsix"
+        android:layout_toEndOf="@id/qualtityin"
+        android:textAllCaps="true"
+        android:paddingTop="120sp"
+        android:paddingLeft="7sp"
+        android:paddingBottom="10dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Status"
+        android:id="@+id/status"
+        android:layout_toEndOf="@+id/imageButton"
+        android:textAllCaps="true"
+        android:paddingTop="140sp"
+        android:paddingLeft="10sp"
+        android:paddingBottom="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="textviewseven"
+        android:id="@+id/textviewseven"
+        android:layout_toEndOf="@id/username"
+        android:textAllCaps="true"
+        android:paddingTop="140sp"
+        android:paddingLeft="7sp"
+        android:paddingBottom="10dp"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="invisible"
+        android:id="@+id/textview8"
+        android:visibility="invisible"/>
+
+
+
+
+
+
+
+
+
+</RelativeLayout>
